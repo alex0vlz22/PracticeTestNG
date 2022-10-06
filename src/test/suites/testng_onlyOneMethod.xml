@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGPriorityTest">
+    <test name="Testing only one method from class.">
+        <classes>
+            <class name="TestingAssertsClass">
+                <methods>
+                    <include name="testTrue"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
